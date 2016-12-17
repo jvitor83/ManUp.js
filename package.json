@@ -1,0 +1,24 @@
+{
+  "name": "ManUp.js",
+  "version": "1.0.0",
+  "description": "W3C Manifest Polyfill",
+  "main": "manup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/uglifyjs manup.js --compress --mangle --output manup.min.js -- manup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvitor83/ManUp.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jvitor83/ManUp.js/issues"
+  },
+  "homepage": "https://github.com/jvitor83/ManUp.js#readme",
+  "devDependencies": {
+    "uglify-js": "^2.7.5"
+  }
+}
